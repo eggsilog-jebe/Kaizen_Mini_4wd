@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blogs</title>
+    <link rel="icon" href="Assets/kaizen-round-logo.png" type="image/png" />
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME FOR ICONS-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="Assets/kaizen-round-logo.png" alt="Logo" class="logo" />
+          <span class="logo-text">KAIZEN</span>
+        </a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul
+            class="navbar-nav mx-lg-auto text-center my-3 my-lg-0 custom-navbar-gap"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex justify-content-center mt-3 mt-lg-0">
+            <!-- Login Button -->
+            <a href="login.html" class="btn btn-glass me-2">
+              <i class="fa fa-user"></i>
+            </a>
+
+            <!-- Cart Icon Button -->
+            <a href="UnderConstruction.html" class="btn btn-glass">
+              <i class="fa fa-shopping-cart"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION - BLOGS -->
+    <section class="hero half-viewport">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-12 text-center"
+            data-aos="fade"
+            data-aos-duration="700"
+          >
+            <h1>Latest Updates</h1>
+            <p class="lead">
+              Whether you're chasing your fastest lap time, planning your next
+              custom build, or <br />
+              looking for the latest race insights.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOGS SECTION -->
+    <section id="blogs" class="py-5">
+      <div class="container" data-aos="fade" data-aos-duration="1500">
+        <!-- Header & Dropdown -->
+        <div
+          class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-2 border-bottom-gradient"
+        >
+          <h2 class="mb-0 kzn-section-heading">Latest Blogs</h2>
+          <div class="dropdown">
+            <button
+              class="btn kzn-btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Sort by
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a class="dropdown-item" href="#" id="sortRecent"
+                  >Most Recent</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" id="sortOldest">Oldest</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Blog Page 1 -->
+        <div id="blogPage1" class="row blog-posts mt-5">
+          <!-- Blog Post 1 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-13"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-12"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-11"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 4 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-10"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 5 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-09"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 6 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-08"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 7 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-07"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 8 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-06"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 9 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-05"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Blog Page 2 -->
+        <div id="blogPage2" class="row blog-posts mt-5">
+          <!-- Blog Post 1 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-13"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-12"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-11"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 4 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-10"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 5 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-09"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 6 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-08"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 7 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-07"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 8 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-06"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 9 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-05"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Blog Page 3 -->
+        <div id="blogPage3" class="row blog-posts mt-5">
+          <!-- Blog Post 1 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-13"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-12"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-11"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 4 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-10"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 5 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-09"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 6 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-08"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 7 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-07"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 8 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-06"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Post 9 -->
+          <div
+            class="col-12 col-sm-6 col-lg-4 mb-4 blog-post"
+            data-date="2025-04-05"
+          >
+            <a
+              href="#"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img src="" class="card-img-top" alt="" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                ></span>
+                <h5 class="card-title mb-1 small-title"></h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Blog Pagination">
+          <ul class="pagination justify-content-center">
+            <li class="page-item" id="prevBtn" disabled>
+              <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <span class="page-link" id="page1">1</span>
+            </li>
+            <li class="page-item">
+              <span class="page-link" id="page2">2</span>
+            </li>
+            <li class="page-item">
+              <span class="page-link" id="page3">3</span>
+            </li>
+            <li class="page-item" id="nextBtn" disabled>
+              <span class="page-link">Next</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer text-white py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Information Column -->
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <!-- Logo and Company Info -->
+            <div class="logo-container d-flex align-items-center mb-3">
+              <img src="Assets/kaizen-round-logo.png" alt="Logo" class="logo" />
+              <span class="footer-logo-text ms-3">KAIZEN CIRCUIT</span>
+            </div>
+            <p class="text-opacity">
+              At Kaizen Circuit, we believe in the spirit of Kaizen—continuous
+              improvement and innovation. From sourcing high-performance parts
+              to building a passionate racing community, we’re here to fuel your
+              journey, one upgrade at a time.
+            </p>
+
+            <!-- Contact Information -->
+            <div class="contact-info mt-4">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-map-marker-alt me-2 icon-opacity"></i>
+                <span class="text-opacity">
+                  Araneta City, Cubao, Quezon City, Philippines, 1109
+                </span>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-envelope me-2 icon-opacity"></i>
+                <span class="text-opacity">KaizenMini4wd@gmail.com</span>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-phone me-2 icon-opacity"></i>
+                <span class="text-opacity">+63 912 345 6789</span>
+              </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="social-icons mt-4 d-flex">
+              <a
+                href="https://www.facebook.com/kaizencircuit"
+                target="_blank"
+                class="btn btn-glass me-2"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.Instagram.com/kaizencircuit"
+                target="_blank"
+                class="btn btn-glass me-2"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <!-- WhatsApp Copy to Clipboard Button -->
+              <div class="position-relative">
+                <a
+                  href="#"
+                  class="btn btn-glass"
+                  aria-label="WhatsApp"
+                  onclick="copyWhatsAppNumber(event, this)"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <div
+                  class="copy-tooltip position-absolute top-0 start-50 translate-middle-x"
+                >
+                  +63 912 345 6789
+                </div>
+              </div>
+            </div>
+            <!-- Copyright -->
+            <div class="mt-4 small text-opacity">
+              &copy; <span id="year"></span> Kaizen Circuit. All rights
+              reserved.
+            </div>
+          </div>
+
+          <!-- Footer Links Column -->
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <!-- Quick Links -->
+              <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="product.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="blogs.html">Blogs</a></li>
+                </ul>
+              </div>
+
+              <!-- Products -->
+              <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Products</h6>
+                <ul class="footer-links">
+                  <li><a href="product.html">Mini 4WD Kit</a></li>
+                  <li><a href="product.html">Mini 4WD Parts</a></li>
+                  <li><a href="product.html">Mini 4WD Circuits</a></li>
+                  <li><a href="product.html">Mini 4WD Batteries</a></li>
+                  <li><a href="product.html">Static Models</a></li>
+                  <li><a href="product.html">R/C Models</a></li>
+                  <li><a href="product.html">Tools</a></li>
+                  <li><a href="product.html">Misc</a></li>
+                </ul>
+              </div>
+
+              <!-- Legal -->
+              <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Legal</h6>
+                <ul class="footer-links">
+                  <li><a href="UnderConstruction.html">Privacy Policy</a></li>
+                  <li><a href="UnderConstruction.html">Terms of Service</a></li>
+                  <li>
+                    <a href="UnderConstruction.html">Returns & Refunds</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Create Account</title>
+    <link rel="icon" href="Assets/kaizen-round-logo.png" type="image/png" />
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME FOR ICONS-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- CREATE ACCOUNT PAGE -->
+    <section class="login-wrapper">
+      <div class="login-container text-center">
+        <!-- Logo outside the card, centered -->
+        <a href="index.html" class="logo-link">
+          <div
+            class="logo-container d-flex justify-content-center align-items-center mb-4"
+          >
+            <span
+              class="login-logo-text ms-2"
+              data-aos="fade-left"
+              data-aos-duration="700"
+              >KAIZEN CIRCUIT</span
+            >
+          </div>
+        </a>
+
+        <!-- Create Account Card -->
+        <div class="login-card" data-aos="fade-left" data-aos-duration="1000">
+          <form
+            action="#"
+            method="post"
+            id="createAccountForm"
+            class="contact-form"
+          >
+            <a href="index.html" class="back-home-link">← Back to Homepage</a>
+
+            <h2 class="login-title">Create Your Account</h2>
+
+            <!-- Full Name -->
+            <div class="mb-3">
+              <label for="fullName" class="form-label kzn-label"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="fullName"
+                class="kzn-input"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <!-- Username -->
+            <div class="mb-3">
+              <label for="username" class="form-label kzn-label"
+                >Username</label
+              >
+              <input
+                type="text"
+                id="username"
+                class="kzn-input"
+                placeholder="Enter your username"
+                required
+              />
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3 position-relative">
+              <label for="password" class="form-label kzn-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                class="kzn-input"
+                placeholder="Enter your password"
+                required
+              />
+              <button
+                type="button"
+                class="toggle-password"
+                onclick="toggleCreateAccountPassword('password', 'eyeIcon')"
+                aria-label="Toggle Password"
+              >
+                <img id="eyeIcon" src="Assets/eye.svg" alt="Show Password" />
+              </button>
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="mb-3 position-relative">
+              <label for="confirmPassword" class="form-label kzn-label"
+                >Confirm Password</label
+              >
+              <input
+                type="password"
+                id="confirmPassword"
+                class="kzn-input"
+                placeholder="Confirm your password"
+                required
+              />
+              <button
+                type="button"
+                class="toggle-password"
+                onclick="toggleCreateAccountPassword('confirmPassword', 'confirmEyeIcon')"
+                aria-label="Toggle Confirm Password"
+              >
+                <img
+                  id="confirmEyeIcon"
+                  src="Assets/eye.svg"
+                  alt="Show Confirm Password"
+                />
+              </button>
+            </div>
+
+            <!-- Create Account Button -->
+            <a
+              href="UnderConstruction.html"
+              class="btn kzn-btn-black w-100 mb-2 text-center"
+              >Create Account</a
+            >
+
+            <!-- Already have an account link -->
+            <p class="text-center create-account">
+              Already have an account? <a href="login.html">Login</a>
+            </p>
+
+            <div class="divider">
+              <span>Or</span>
+            </div>
+
+            <!-- Google login button -->
+            <button type="button" class="google-btn w-100">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+                alt="Google Logo"
+              />
+              Login with Google
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kaizen Circuit</title>
+    <link rel="icon" href="Assets/kaizen-round-logo.png" type="image/png" />
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME FOR ICONS-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="Assets/kaizen-round-logo.png" alt="Logo" class="logo" />
+          <span class="logo-text">KAIZEN</span>
+        </a>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul
+            class="navbar-nav mx-lg-auto text-center my-3 my-lg-0 custom-navbar-gap"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex justify-content-center mt-3 mt-lg-0">
+            <!-- Login Button -->
+            <a href="login.html" class="btn btn-glass me-2">
+              <i class="fa fa-user"></i>
+            </a>
+
+            <!-- Cart Icon Button -->
+            <a href="UnderConstruction.html" class="btn btn-glass">
+              <i class="fa fa-shopping-cart"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <div class="small-text" data-aos="fade" data-aos-duration="700">
+              <span class="emoji">⚡</span>
+              <span class="gradient-text">Ready, Set, Build!</span>
+            </div>
+            <h1 data-aos="fade" data-aos-duration="700">Kaizen Circuit</h1>
+            <p class="lead" data-aos="fade" data-aos-duration="700">
+              At Kaizen Circuit, we're more than just a Mini 4WD hobby shop —
+              <br />
+              we're a hub for racers, builders, and dreamers.
+            </p>
+            <a href="login.html" class="kzn-btn-cta">Start Your Build Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KAIZEN TOOLS SECTIONS -->
+    <section id="products" class="py-5">
+      <div class="container">
+        <!-- Section Header -->
+        <div
+          class="d-flex justify-content-between align-items-center mb-4"
+          data-aos="fade"
+          data-aos-duration="2000"
+        >
+          <h2 class="kzn-section-heading">Kaizen Tools</h2>
+          <a href="product.html" class="btn kzn-btn-secondary">See More</a>
+        </div>
+
+        <!-- Desktop Grid Layout -->
+        <div class="row d-none d-md-flex">
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                >New</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74057/74057_1.jpg"
+                  class="card-img-top"
+                  alt="Product 1"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">
+                  Portable tool set (for drilling)
+                </h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,823.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                >New</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74146/74146_1.jpg"
+                  class="card-img-top"
+                  alt="Product 2"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Needle nose w/cutter II</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,060.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                >New</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/6/69943/69943_1.jpg"
+                  class="card-img-top"
+                  alt="Product 3"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Modeler's knife (blue)</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">6,176.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                >New</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74152/74152_1.jpg"
+                  class="card-img-top"
+                  alt="Product 4"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Ratcheting screwdriver pro</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">5,198.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Carousel Layout -->
+        <div
+          id="productCarousel"
+          class="carousel slide d-md-none"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card position-relative">
+                <span
+                  class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                  >New</span
+                >
+                <div class="card-img-wrapper">
+                  <img
+                    src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74057/74057_1.jpg"
+                    class="card-img-top"
+                    alt="Portable tool set (for drilling)"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">
+                    Portable tool set (for drilling)
+                  </h5>
+                  <p class="fw-bold mb-2">
+                    <span class="currency">&#8369;</span
+                    ><span class="price">4,823.00</span>
+                  </p>
+                  <a href="login.html" class="btn kzn-btn-black mt-auto"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card position-relative">
+                <span
+                  class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                  >New</span
+                >
+                <div class="card-img-wrapper">
+                  <img
+                    src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74146/74146_1.jpg"
+                    class="card-img-top"
+                    alt="Needle nose w/cutter II"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Needle nose w/cutter II</h5>
+                  <p class="fw-bold mb-2">
+                    <span class="currency">&#8369;</span
+                    ><span class="price">4,060.00</span>
+                  </p>
+                  <a href="login.html" class="btn kzn-btn-black mt-auto"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card position-relative">
+                <span
+                  class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                  >New</span
+                >
+                <div class="card-img-wrapper">
+                  <img
+                    src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/6/69943/69943_1.jpg"
+                    class="card-img-top"
+                    alt="Modeler's knife (blue)"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Modeler's knife (blue)</h5>
+                  <p class="fw-bold mb-2">
+                    <span class="currency">&#8369;</span
+                    ><span class="price">6,176.00</span>
+                  </p>
+                  <a href="login.html" class="btn kzn-btn-black mt-auto"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card position-relative">
+                <span
+                  class="badge bg-success text-white position-absolute top-0 start-0 m-2"
+                  >New</span
+                >
+                <div class="card-img-wrapper">
+                  <img
+                    src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/74152/74152_1.jpg"
+                    class="card-img-top"
+                    alt="Ratcheting screwdriver pro"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Ratcheting screwdriver pro</h5>
+                  <p class="fw-bold mb-2">
+                    <span class="currency">&#8369;</span
+                    ><span class="price">5,198.00</span>
+                  </p>
+                  <a href="login.html" class="btn kzn-btn-black mt-auto"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#productCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#productCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOT DEALS SECTION -->
+    <section id="featured" class="py-5">
+      <div class="container">
+        <div
+          class="d-flex justify-content-between align-items-center mb-4"
+          data-aos="fade"
+          data-aos-duration="2000"
+        >
+          <h2 class="kzn-section-heading">Hot Deals</h2>
+          <a href="product.html" class="btn kzn-btn-secondary">See More</a>
+        </div>
+
+        <div class="row" data-aos="fade">
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47514/47514_1.jpg"
+                  class="card-img-top"
+                  alt="Product 1"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Shadow Blitzer</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">3,987.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/58680/58680_1.jpg"
+                  class="card-img-top"
+                  alt="Product 2"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">
+                  Toyota Gazoo Racing TS050 HYBRID 2019 (F103GT Chassis )
+                </h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,844.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58742/58742_1.jpg"
+                  class="card-img-top"
+                  alt="Product 3"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Aero Drifter</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">3,334.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58744/58744_1.jpg"
+                  class="card-img-top"
+                  alt="Product 4"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Vortex Phantom</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,234.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/4/47508/47508_1.jpg"
+                  class="card-img-top"
+                  alt="Product 5"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Thunderbolt</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">5,266.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58740/58740_1.jpg"
+                  class="card-img-top"
+                  alt="Product 6"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Stormbreaker Elite</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,503.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/5/58734/58734_1.jpg"
+                  class="card-img-top"
+                  alt="Product 7"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">Citroen DS (MB-01 chassis)</h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">3,921.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <div class="card position-relative h-100">
+              <span
+                class="badge bg-warning text-dark position-absolute top-0 start-0 m-2"
+                >Hot</span
+              >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/5/58637/58637_1.jpg"
+                  class="card-img-top"
+                  alt="Product 8"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-1">
+                  Honda Civic SiR (TT-02D) Drift Spec
+                </h5>
+                <p class="fw-bold mb-2">
+                  <span class="currency">&#8369;</span
+                  ><span class="price">4,988.00</span>
+                </p>
+                <a href="login.html" class="btn kzn-btn-black mt-auto"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAST CTA SECTION -->
+    <section id="lastCTA">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Left Side: CTA Text -->
+          <div class="col-lg-6" data-aos="fade" data-aos-duration="2000">
+            <div class="cta-text">
+              <h1>Unleash Your Speed at Kaizen Circuit</h1>
+              <p class="lead">
+                Precision builds, elite parts, and next-level racing —
+                everything you need to dominate the Mini 4WD circuit.
+              </p>
+              <a href="login.html" class="kzn-btn-cta">Get Started Now</a>
+            </div>
+          </div>
+
+          <!-- Right Side: Image -->
+          <div class="col-lg-6" data-aos="zoom-in-left">
+            <img
+              src="Assets/cta-image-4wd.png"
+              alt="Kaizen Racing"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOGS SECTION -->
+    <section id="blogs" class="py-5">
+      <div class="container" data-aos="fade" data-aos-duration="700">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="kzn-section-heading">Latest Blogs</h2>
+          <a href="blogs.html" class="btn kzn-btn-secondary">See More</a>
+        </div>
+
+        <!-- Desktop View of Blogs (Grid Layout) -->
+        <div class="row d-none d-md-flex">
+          <!-- Blog Item 1 -->
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <a
+              href="blogs.html"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://www.tamiya.com/cms/images/stories/newstopics/2025/01/15spiel/top_955_500.jpg"
+                  class="card-img-top"
+                  alt="Tamiya News 1"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                  >04/13/2025</span
+                >
+                <h5 class="card-title mb-1 small-title">
+                  Tamiya models receive awards from prestigious German
+                  magazines!
+                </h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Item 2 -->
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <a
+              href="blogs.html"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://www.tamiya.com/cms/images/stories/newstopics/2024/09/03hs_info/62_poster_707_1000.jpg"
+                  class="card-img-top"
+                  alt="Tamiya News 2"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                  >04/12/2025</span
+                >
+                <h5 class="card-title mb-1 small-title">
+                  Tamiya at the All Japan Model & Hobby Show 2024
+                </h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Item 3 -->
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <a
+              href="blogs.html"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://cinemabravo.com/wp-content/uploads/2024/11/the-brickyard-tamiya.png?w=1024"
+                  class="card-img-top"
+                  alt="Tamiya News 3"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                  >04/11/2025</span
+                >
+                <h5 class="card-title mb-1 small-title">
+                  Tamiya Mini 4WD is hot in the Philippines
+                </h5>
+              </div>
+            </a>
+          </div>
+
+          <!-- Blog Item 4 -->
+          <div class="col-6 col-sm-6 col-md-3 mb-4">
+            <a
+              href="blogs.html"
+              class="card position-relative h-100 text-decoration-none"
+            >
+              <div class="card-img-wrapper">
+                <img
+                  src="https://www.tamiya.com/cms/images/stories/newstopics/2025/01/15spiel/messe2025_955_500_04.jpg"
+                  class="card-img-top"
+                  alt="Tamiya News 4"
+                />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span
+                  class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                  >04/10/2025</span
+                >
+                <h5 class="card-title mb-1 small-title">
+                  Items on Display in the Tamiya Booth at Spielwarenmesse 2025
+                </h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Mobile View of Blogs (Carousel) -->
+        <div
+          id="newsCarousel"
+          class="carousel slide d-md-none"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner">
+            <!-- Carousel Item 1 -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-6">
+                  <a
+                    href="#"
+                    class="card position-relative h-100 text-decoration-none"
+                  >
+                    <div class="card-img-wrapper">
+                      <img
+                        src="https://www.tamiya.com/cms/images/stories/newstopics/2025/01/15spiel/top_955_500.jpg"
+                        class="card-img-top"
+                        alt="Tamiya News 1"
+                      />
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                      <span
+                        class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                        >04/13/2025</span
+                      >
+                      <h5 class="card-title mb-1 small-title">
+                        Tamiya Launches New Portable Tool Set for Modelers
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a
+                    href="#"
+                    class="card position-relative h-100 text-decoration-none"
+                  >
+                    <div class="card-img-wrapper">
+                      <img
+                        src="https://www.tamiya.com/cms/images/stories/newstopics/2024/09/03hs_info/62_poster_707_1000.jpg"
+                        class="card-img-top"
+                        alt="Tamiya News 2"
+                      />
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                      <span
+                        class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                        >04/12/2025</span
+                      >
+                      <h5 class="card-title mb-1 small-title">
+                        Tamiya at the All Japan Model & Hobby Show 2024
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Item 2 -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <a
+                    href="#"
+                    class="card position-relative h-100 text-decoration-none"
+                  >
+                    <div class="card-img-wrapper">
+                      <img
+                        src="https://cinemabravo.com/wp-content/uploads/2024/11/the-brickyard-tamiya.png?w=1024"
+                        class="card-img-top"
+                        alt="Tamiya News 3"
+                      />
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                      <span
+                        class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                        >04/11/2025</span
+                      >
+                      <h5 class="card-title mb-1 small-title">
+                        Tamiya Mini 4WD is hot in the Philippines
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-6">
+                  <a
+                    href="#"
+                    class="card position-relative h-100 text-decoration-none"
+                  >
+                    <div class="card-img-wrapper">
+                      <img
+                        src="https://cinemabravo.com/wp-content/uploads/2024/11/the-brickyard-tamiya.png?w=1024"
+                        class="card-img-top"
+                        alt="Tamiya News 4"
+                      />
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                      <span
+                        class="badge bg-dark text-white position-absolute top-0 start-0 m-2"
+                        >04/10/2025</span
+                      >
+                      <h5 class="card-title mb-1 small-title">
+                        Items on Display in the Tamiya Booth at Spielwarenmesse
+                        2025
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#newsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#newsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer text-white py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Information Column -->
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <!-- Logo and Company Info -->
+            <div class="logo-container d-flex align-items-center mb-3">
+              <img src="Assets/kaizen-round-logo.png" alt="Logo" class="logo" />
+              <span class="footer-logo-text ms-3">KAIZEN CIRCUIT</span>
+            </div>
+            <p class="text-opacity">
+              At Kaizen Circuit, we believe in the spirit of Kaizen—continuous
+              improvement and innovation. From sourcing high-performance parts
+              to building a passionate racing community, we’re here to fuel your
+              journey, one upgrade at a time.
+            </p>
+
+            <!-- Contact Information -->
+            <div class="contact-info mt-4">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-map-marker-alt me-2 icon-opacity"></i>
+                <span class="text-opacity">
+                  Araneta City, Cubao, Quezon City, Philippines, 1109
+                </span>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-envelope me-2 icon-opacity"></i>
+                <span class="text-opacity">KaizenMini4wd@gmail.com</span>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa fa-phone me-2 icon-opacity"></i>
+                <span class="text-opacity">+63 912 345 6789</span>
+              </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="social-icons mt-4 d-flex">
+              <a
+                href="https://www.facebook.com/kaizencircuit"
+                target="_blank"
+                class="btn btn-glass me-2"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.Instagram.com/kaizencircuit"
+                target="_blank"
+                class="btn btn-glass me-2"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <!-- WhatsApp Copy to Clipboard Button -->
+              <div class="position-relative">
+                <a
+                  href="#"
+                  class="btn btn-glass"
+                  aria-label="WhatsApp"
+                  onclick="copyWhatsAppNumber(event, this)"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <div
+                  class="copy-tooltip position-absolute top-0 start-50 translate-middle-x"
+                >
+                  +63 912 345 6789
+                </div>
+              </div>
+            </div>
+            <!-- Copyright -->
+            <div class="mt-4 small text-opacity">
+              &copy; <span id="year"></span> Kaizen Circuit. All rights
+              reserved.
+            </div>
+          </div>
+
+          <!-- Footer Links Column -->
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <!-- Quick Links -->
+              <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="product.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="blogs.html">Blogs</a></li>
+                </ul>
+              </div>
+
+              <!-- Products -->
+              <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Products</h6>
+                <ul class="footer-links">
+                  <li><a href="product.html">Mini 4WD Kit</a></li>
+                  <li><a href="product.html">Mini 4WD Parts</a></li>
+                  <li><a href="product.html">Mini 4WD Circuits</a></li>
+                  <li><a href="product.html">Mini 4WD Batteries</a></li>
+                  <li><a href="product.html">Static Models</a></li>
+                  <li><a href="product.html">R/C Models</a></li>
+                  <li><a href="product.html">Tools</a></li>
+                  <li><a href="product.html">Misc</a></li>
+                </ul>
+              </div>
+
+              <!-- Legal -->
+              <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Legal</h6>
+                <ul class="footer-links">
+                  <li><a href="UnderConstruction.html">Privacy Policy</a></li>
+                  <li><a href="UnderConstruction.html">Terms of Service</a></li>
+                  <li>
+                    <a href="UnderConstruction.html">Returns & Refunds</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
